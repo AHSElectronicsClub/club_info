@@ -1,4 +1,4 @@
-const ProjectCard = ({ project, onClick }) => (
+export default ProjectCard = ({ project, onClick }) => (
     <div
         className="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 cursor-pointer group"
         onClick={onClick}

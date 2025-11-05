@@ -1,5 +1,5 @@
 // --- PAGE COMPONENTS ---
-const Header = ({ onNavClick, currentPage }) => {
+export default Header = ({ onNavClick, currentPage }) => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     const navItems = [

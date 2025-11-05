@@ -1,4 +1,4 @@
-const Button = ({ children, onClick, variant = 'primary', className = '', href, target, ...props }) => {
+export default Button = ({ children, onClick, variant = 'primary', className = '', href, target, ...props }) => {
     const baseClasses = 'inline-block px-6 py-3 rounded-lg font-semibold text-center transition-all duration-300 shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-navy-dark disabled:opacity-50 disabled:cursor-not-allowed';
 
     const styles = {

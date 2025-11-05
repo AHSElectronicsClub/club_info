@@ -1,4 +1,4 @@
-const Modal = ({ isOpen, onClose, children }) => {
+export default Modal = ({ isOpen, onClose, children }) => {
     if (!isOpen) return null;
 
     return (

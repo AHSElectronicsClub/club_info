@@ -1,7 +1,6 @@
 package main
 
 import (
-	"errors"
 	"time"
 
 	"github.com/google/uuid"
@@ -46,3 +45,4 @@ type Sample struct {
 func (b *Bouy) GetState() string {
 	return StateMap[b.State]
 }
+

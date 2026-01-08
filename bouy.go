@@ -39,10 +39,9 @@ type Scanner struct {
 type Sample struct {
 	Time          time.Time `json:"time"`
 	OxygenContent float64   `json:"oxygen_content"`
-	// All of the other data points will go here
+	// All of the other fields that we're collecting go here
 }
 
 func (b *Bouy) GetState() string {
 	return StateMap[b.State]
 }
-

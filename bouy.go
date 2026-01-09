@@ -27,13 +27,13 @@ type Bouy struct {
 	Name     string
 	Battery  int16
 	State    BouyState
-	Scanners []Scanner
+	Scanners []BScanner
+	Data     []Sample
 }
 
-type Scanner struct {
+type BScanner struct {
 	ID      uuid.UUID
 	Battery int16
-	Data    []Sample
 }
 
 type Sample struct {
